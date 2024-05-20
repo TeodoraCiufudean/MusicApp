@@ -1,0 +1,56 @@
+.deleteAlbumContainer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .tokenBoxDelete {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px; /* Adjusted padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin-left: 400px; /* Adjust the margin to center the box */
+  }
+  
+  .tokenBoxDelete h2 {
+    margin-bottom: 10px;
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .tokenBoxDelete label {
+    font-weight: bold; /* Make the label text bold */
+  }
+  
+  .tokenBoxDelete input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Make the input fields fill the width of the box */
+    margin-bottom: 10px; /* Adjust the margin between input fields */
+  }
+  
+  .tokenBoxDelete button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(136, 91%, 31%);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make the buttons fill the width of the box */
+  }
+  
+  .tokenBoxDelete button:hover {
+    background-color: #016429;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .message {
+    color: green;
+  }
+  

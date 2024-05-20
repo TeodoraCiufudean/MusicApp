@@ -1,0 +1,36 @@
+.manageAlbumsContainer {
+    display: flex;
+    height: 100%; /* Ensure container spans full height */
+  }
+  
+  .manageAlbumsButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between buttons */
+    align-items: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+    border-radius: 12px; /* Rounded rectangle border */
+    width: 300px; /* Set a specific width */
+    margin-left: 50px; /* Push the container to the right */
+    margin-right: 20px; /* Add some space on the right */
+    margin-top: 60px;
+  }
+  
+  .manageAlbumsButtons button {
+    flex: 1; /* Equal size for all buttons */
+    margin: 35px 0; /* Distance between buttons */
+    padding: 15px 30px; /* Increased padding for bigger buttons */
+    font-size: 19px; /* Increased font size for bigger buttons */
+    background-color:  hsl(136, 91%, 31%);
+    color: #ffffff;
+    border: none;
+    border-radius: 6px; /* Slightly increased border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .manageAlbumsButtons button:hover {
+    background-color: #016429;
+  }
+  

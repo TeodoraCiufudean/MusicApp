@@ -1,0 +1,48 @@
+.tokenBoxInsert,
+.albumForm {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px; /* Adjusted padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Adjust the width as needed */
+  /*height: 550px; /* Adjust the height as needed */
+  margin-left: 400px; /* Adjust the margin to center the box */
+  margin-top: 40px;
+}
+
+.tokenBoxInsert h2,
+.albumForm h2 {
+  margin-bottom: 10px;
+  font-weight: bold; /* Make the text bold */
+}
+
+.tokenBoxInsert label,
+.albumForm label {
+  font-weight: bold; /* Make the label text bold */
+}
+
+.tokenBoxInsert input,
+.albumForm input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%; /* Make the input fields fill the width of the box */
+  margin-bottom: 10px; /* Adjust the margin between input fields */
+}
+
+.tokenBoxInsert button,
+.albumForm button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(136, 91%, 31%);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Make the buttons fill the width of the box */
+}
+
+.tokenBoxInsert button:hover,
+.albumForm button:hover {
+  background-color: #016429;
+}
