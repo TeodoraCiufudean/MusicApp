@@ -23,7 +23,7 @@ public class Song {
     @Column (name = "year")
     private int year;
 
-    @ManyToOne()
+    @ManyToOne
     @JoinColumn (name = "album")
     private Album album;
 

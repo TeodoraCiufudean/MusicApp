@@ -1,14 +1,16 @@
 package com.example.musicapp.entity;
 
 import jakarta.persistence.*;
+import org.springframework.boot.autoconfigure.web.WebProperties;
+import org.springframework.boot.context.properties.bind.DefaultValue;
 
 @Entity
 @Table (name = "albums")
 public class Album {
 
     @Id
-    @Column (name = "album_id")
     @GeneratedValue
+    @Column (name = "album_id")
     private int albumID;
 
     @Column (name = "album_title")

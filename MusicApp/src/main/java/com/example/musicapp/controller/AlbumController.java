@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/albums")
 public class AlbumController {
@@ -35,6 +36,7 @@ public class AlbumController {
     @PutMapping("/updateAlbum")
     @ResponseBody
     public Album updateAlbum(@RequestBody Album album){
+
         return this.albumService.insertAlbum(album);
     }
 
